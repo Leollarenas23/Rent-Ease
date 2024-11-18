@@ -1,0 +1,114 @@
+body {
+    font-family: 'Lalita one', sans-serif;
+    text-align: center;
+    margin: 30px;
+    padding: 0;
+    background-color: #87cefa;
+    display: flex; /* Use Flexbox for centering */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center horizontally */
+    
+}
+
+img.owner {
+    margin: 0; /* Ensures image is centered horizontally if necessary */
+    width: 90px;
+    height: 100px;
+}
+
+h1 {
+    background-color: #05347e;
+    color: white;
+    padding: 10px;
+    width: 70%;
+    text-align: center;
+    margin: 10px 0; /* Space above and below */
+    border-radius: 80px;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+input.inputName, input.inputPass {
+    background-color: transparent;
+    border: 3px solid rgb(215, 215, 215);
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    width: 60%;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+input.inputName:focus, input.inputPass:focus {
+    outline: none;
+}
+
+.forgotpass {
+    display: flex; /* Arrange items in a row */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Align vertically */
+    gap: 10px; /* Add spacing between the elements */
+    margin-top: 10px;
+}
+
+.forgotpass h2 {
+    font-size: 14px;
+    margin: 0; /* Remove extra margins */
+    color: black;
+}
+
+.forgotpass a h2 {
+    color: black;
+    text-decoration: none;
+    
+}
+
+.forgotpass a h2:hover {
+    color: #05347e;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column; /* Stack the buttons vertically */
+    align-items: center; /* Center buttons horizontally */
+    width: 30%;
+    margin-top: 10px;
+   ;
+   
+}
+
+.buttons button {
+    background-color:  #021b44;
+    color: white;
+    border: 2px black solid;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    width: 100%; /* Optional: make the buttons uniform in size */
+}
+
+.buttons button:hover {
+    background-color: #05347e;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li {
+    padding: 8px;
+    background-color: #f4f4f4;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+li.completed {
+    text-decoration: line-through;
+    background-color: #e0e0e0;
+}

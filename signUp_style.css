@@ -1,0 +1,116 @@
+.body {
+    text-align: center;
+    padding: 0;
+    background-color: #87cefa;
+    display: flex; /* Use Flexbox for centering */
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center horizontally */
+    
+}
+body {
+    font-family: 'Lalita one', sans-serif;
+    background-color: #87cefa;
+}
+.header {
+    display: flex;
+    gap: 15%;
+    margin-top: 20px;
+}
+img {
+    height: 40px;
+    width: 40px;
+    justify-content: baseline;
+    cursor: pointer;
+    margin-left: 5px;
+
+}
+h1 {
+    background-color: #05347e;
+    color: white;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    margin: 0; /* Space above and below */
+    border-radius: 80px;
+    border: 2px solid black;
+    font-size: 20px;
+}
+.progress {
+    flex-direction: row; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    gap: 10px;
+    
+}
+h6.s1 {
+    background-color: #05347e;
+    color: white;
+    padding: 5px;
+    width: 20%;
+    text-align: center;
+    margin: 10px 0; /* Space above and below */
+    border-radius: 80px;
+    border: 2px solid black;
+    
+}
+h6.s2, h6.s3, h6.s4, h6.s5 {
+    background-color: #87cefa;
+    color: white;
+    padding: 5px;
+    width: 20%;
+    text-align: center;
+    margin: 10px 0; /* Space above and below */
+    border-radius: 80px;
+    border: 2px solid black;
+    
+}
+.container {
+   background-color: white; 
+   margin: 10px 0;
+   width: 455px;
+   height: 80px;
+   
+}
+h2{
+    margin-top: 5px;
+}
+h5 {
+    margin-top: 0px;
+}
+input{
+    background-color: transparent;
+    border: 3px solid rgb(215, 215, 215);
+    color: black;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    width: 60%;
+    margin-bottom: 15px;
+    font-weight: bold;
+    outline: none;
+}
+h6 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+button {
+    background-color:  #021b44;
+    color: white;
+    border: 2px black solid;
+    cursor: pointer;
+    border-radius: 30px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px;
+    width: 150px;
+    margin-top: 5px;
+}
+
+button:hover {
+    background-color: #05347e;
+}
+
+
+
